@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer id="footer" role="contentinfo">
@@ -7,13 +9,19 @@ export default function Footer() {
             <h3>Site</h3>
             <ul>
               <li>
-                <a href="/">Home</a>{" "}
+                <Link href={`/`}>
+                  <a>Home</a>
+                </Link>
               </li>
               <li>
-                <a href="/portfolio">Portfolio</a>{" "}
+                <Link href={`/portfolio`}>
+                  <a>Portfolio</a>
+                </Link>
               </li>
               <li>
-                <a href="/blog">Blog</a>{" "}
+                <Link href={`/blog`}>
+                  <a>Blog</a>
+                </Link>
               </li>
               <li>&nbsp;</li>
             </ul>

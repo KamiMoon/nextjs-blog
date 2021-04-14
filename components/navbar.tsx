@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav
@@ -17,20 +19,26 @@ export default function Navbar() {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a href="/" className="navbar-brand">
-            erickizaki.com
-          </a>
+          <Link href={`/`}>
+            <a className="navbar-brand">erickizaki.com</a>
+          </Link>
         </div>
         <div className="navbar-collapse collapse" id="js-navbar-collapse">
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="/">HOME</a>
+              <Link href={`/`}>
+                <a>HOME</a>
+              </Link>
             </li>
             <li>
-              <a href="/blog">BLOG</a>
+              <Link href={`/blog`}>
+                <a>BLOG</a>
+              </Link>
             </li>
             <li>
-              <a href="/portfolio">PORTFOLIO</a>
+              <Link href={`/portfolio`}>
+                <a>PORTFOLIO</a>
+              </Link>
             </li>
             <li className="dropdown">
               <a
@@ -104,9 +112,9 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <a href="/contact">CONTACT</a>
-            </li>
+            </li> */}
             {/* <li ng-show="vm.isLoggedIn()">
               <a href="/profile/{{vm.getCurrentUser()._id}}">PROFILE</a>
             </li>

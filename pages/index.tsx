@@ -45,7 +45,7 @@ function Jumbotron() {
       <p>
         <a
           className="btn btn-lg btn-success"
-          href="https://github.com/KamiMoon/angular_full"
+          href="https://github.com/KamiMoon/nextjs-blog"
           target="_blank"
           role="button"
         >
