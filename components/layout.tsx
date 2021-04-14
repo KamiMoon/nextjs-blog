@@ -54,13 +54,13 @@ export default function Layout({
         <main>{children}</main>
       </div>
 
-      {!home && (
+      {/* {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
             <a>← Back to home</a>
           </Link>
         </div>
-      )}
+      )} */}
 
       <Footer />
     </div>
