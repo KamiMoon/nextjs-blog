@@ -20,7 +20,7 @@ export default function Layout({
     <div>
       <Head>
         <meta charSet="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           content="width=device-width, initial-scale=1, maximum-scale=1"
           name="viewport"

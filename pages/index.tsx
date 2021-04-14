@@ -74,7 +74,7 @@ function Marketing() {
             real-time applications. In depth knowledge of offline applications
             using local storage and IndexedDB.
           </p>
-          <p>
+          {/* <p>
             <a
               className="btn btn-default btn-lg"
               href="https://www.linkedin.com/in/erickizaki"
@@ -82,7 +82,7 @@ function Marketing() {
             >
               Linkedin &raquo;
             </a>
-          </p>
+          </p> */}
         </div>
         <div className="col-lg-4">
           <img
@@ -98,7 +98,7 @@ function Marketing() {
             Grunt. Click Demo for a small demo app using AngularJS, Node.js, and
             MongoDB.
           </p>
-          <p>
+          {/* <p>
             <a
               className="btn btn-default btn-lg"
               href="https://www.linkedin.com/in/erickizaki"
@@ -106,12 +106,12 @@ function Marketing() {
             >
               Linkedin &raquo;
             </a>
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             <a className="btn btn-default btn-lg" href="/crud" role="button">
               Demo &raquo;
             </a>
-          </p>
+          </p> */}
         </div>
         <div className="col-lg-4">
           <img
@@ -130,11 +130,11 @@ function Marketing() {
           <p>
             <a
               className="btn btn-default btn-lg"
-              href="https://www.preservedfw.com"
+              href="https://github.com/KamiMoon/preserveus"
               target="_blank"
               role="button"
             >
-              Preserve US LLC &raquo;
+              <i className="fa fa-github fa-lg"></i> Preserve US LLC &raquo;
             </a>
           </p>
           <p>
@@ -157,7 +157,7 @@ function Marketing() {
               <i className="fa fa-github fa-lg"></i> erickizaki.com &raquo;
             </a>
           </p>
-          <p>
+          {/* <p>
             <a
               className="btn btn-default btn-lg"
               href="https://university.mongodb.com/exams/display_certificate?csrfmiddlewaretoken=XibdC5vVH3A3H4rKrVpkmEge5dgNdkuw&license1=946&license2=959&license3=786"
@@ -166,7 +166,7 @@ function Marketing() {
             >
               Certification &raquo;
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
       <hr className="featurette-divider" />
@@ -178,35 +178,35 @@ function Marketing() {
           </h2>
           <p className="lead">
             I have been experimenting with WebGL technolgoy and{" "}
-            <a href="http://threejs.org/">Three.js</a> in particular. For the 3D
+            {/* <a href="http://threejs.org/">Three.js</a> in particular. For the 3D
             house demo click the the Blue Square in the top left to move through
             the house in a scripted fashion through a simple 3D house model
             created in <a href="https://www.blender.org/">Blender</a>. Has mouse
-            orbit and move controls to move freely as well. The second demo is a
-            3D container yard that renders 11,000+ containers each clickable
+            orbit and move controls to move freely as well. The second demo is a */}
+            A 3D container yard that renders 11,000+ containers each clickable
             with its own JavaScript data. Renders at 60fps on most hardware.
           </p>
           <div className="main-button-container">
-            <a
+            {/* <a
               className="btn btn-default btn-lg"
               href="https://dazzling-fire-6644.firebaseapp.com/threejs/"
               target="_blank"
             >
               3D House &raquo;
-            </a>
+            </a> */}
             <a
               className="btn btn-default btn-lg"
-              href="threejslot/index.html"
+              href="/threejslot/index.html"
               target="_blank"
             >
               3D Container Yard &raquo;
             </a>
-            <a
+            {/* <a
               className="btn btn-default btn-lg"
               href="https://github.com/KamiMoon/angular_full/tree/master/client/threejslot"
             >
               <i className="fa fa-github fa-lg"></i> GitHub &raquo;
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="col-md-5">
@@ -247,13 +247,13 @@ function Marketing() {
             >
               CSS3 Transitions Demo &raquo;
             </a>
-            <a
+            {/* <a
               className="btn btn-default btn-lg"
               href="https://github.com/KamiMoon/angular_full/tree/master/client/css3presentation"
             >
               <i className="fa fa-github fa-lg"></i> GitHub &raquo;
             </a>
-            .
+            . */}
           </div>
         </div>
         <div className="col-md-5 col-md-pull-7">
@@ -342,14 +342,14 @@ function Marketing() {
             <a href="http://impress.github.io/impress.js/#/bored">impress.js</a>
           </p>
           <div className="main-button-container">
-            <a
+            {/* <a
               className="btn btn-default btn-lg"
               role="button"
               href="https://dazzling-fire-6644.firebaseapp.com/presentations/#/start"
               target="_blank"
             >
               WebGL Presentation &raquo;
-            </a>
+            </a> */}
             <a
               className="btn btn-default btn-lg"
               href="presentations/css3transitions/index.html"

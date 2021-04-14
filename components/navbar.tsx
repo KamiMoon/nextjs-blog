@@ -44,7 +44,7 @@ export default function Navbar() {
                 DEMOS <span className="caret"></span>
               </a>
               <ul className="dropdown-menu">
-                <li>
+                {/* <li>
                   <a href="/crud">AngularJS</a>
                 </li>
                 <li>
@@ -62,15 +62,15 @@ export default function Navbar() {
                   >
                     Three.js House
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="threejslot/index.html" target="_blank">
+                  <a href="/threejslot/index.html" target="_blank">
                     Three.js Lot
                   </a>
                 </li>
                 <li>
                   <a
-                    href="presentations/css3transitions/index.html"
+                    href="/presentations/css3transitions/index.html"
                     target="_blank"
                   >
                     CSS3 Transitions Presentation
@@ -78,14 +78,14 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="presentations/css3transitions/GraphicalTrain.html"
+                    href="/presentations/css3transitions/GraphicalTrain.html"
                     target="_blank"
                   >
                     CSS3 Transitions Demo
                   </a>
                 </li>
                 <li>
-                  <a href="presentations/IndexedDB/index.html" target="_blank">
+                  <a href="/presentations/IndexedDB/index.html" target="_blank">
                     IndexedDB Presentation
                   </a>
                 </li>
