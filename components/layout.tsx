@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Navbar from "./navbar";
+import Footer from "./footer";
 
 const name = "Eric Kizaki";
 export const siteTitle = "Eric Kizaki";
@@ -15,7 +17,7 @@ export default function Layout({
   home?: boolean;
 }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <meta
           content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -39,7 +41,14 @@ export default function Layout({
         />
       </Head>
 
-      <main>{children}</main>
+      <Navbar />
+      <div id="main-container" className="container-fluid">
+        <div id="top"></div>
+        <br />
+        <br />
+        <main>{children}</main>
+      </div>
+
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
@@ -47,6 +56,8 @@ export default function Layout({
           </Link>
         </div>
       )}
+
+      <Footer />
     </div>
   );
 }
