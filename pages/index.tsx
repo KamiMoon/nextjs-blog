@@ -25,7 +25,7 @@ export default function Home({
       <Marketing />
       <br />
       <br />
-      <PostList allPostsData={allPostsData}></PostList>
+      {/* <PostList allPostsData={allPostsData}></PostList> */}
     </Layout>
   );
 }

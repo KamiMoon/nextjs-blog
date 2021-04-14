@@ -19,6 +19,8 @@ export default function Layout({
   return (
     <div>
       <Head>
+        <meta charSet="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta
           content="width=device-width, initial-scale=1, maximum-scale=1"
           name="viewport"
@@ -39,6 +41,9 @@ export default function Layout({
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
         />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       </Head>
 
       <Navbar />
