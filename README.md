@@ -19,3 +19,4 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
 - Push footer to bottom fix layout
 - CRUD demo with Formick
+- Use a newer CSS framework

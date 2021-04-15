@@ -3,4 +3,4 @@
 User-agent: *
 
 
-Sitemap: http://www.erickizaki.com//sitemap.xml
+Sitemap: https://www.erickizaki.com//sitemap.xml
