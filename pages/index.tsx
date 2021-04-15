@@ -233,6 +233,14 @@ function Marketing() {
             src="/images/css3.png"
             alt="CSS3"
           /> */}
+          <Image
+            priority
+            src="/images/css3.png"
+            className="featurette-image img-responsive center-block"
+            width={177}
+            height={250}
+            alt="CSS3"
+          />
         </div>
       </div>
       <hr className="featurette-divider" />
