@@ -94,26 +94,35 @@ function Marketing() {
       </div>
       <div className="row">
         <div className="col-lg-4">
-          <img
-            src="https://res.cloudinary.com/ddovrks1z/image/upload/w_200,h_200,c_fit/preserveus/yu6mk5unhlinzxcxwrl8.jpg"
+          <Image
+            priority
+            src="/images/nodejs.png"
+            height={150}
+            width={245}
             alt="Node.js"
           />
-          <h2>Node.js</h2>
+          <h2>Backend Development</h2>
           <p>
             Extensive experience Node.js for creating web server applications
             using Express.js and serverless microservices on AWS Lambda.
+            Experience using PHP, Python, and Java for creating backend
+            services.
           </p>
         </div>
         <div className="col-lg-4">
-          <img
-            src="https://res.cloudinary.com/ddovrks1z/image/upload/w_200,h_200,c_fit/preserveus/ubl6hx3cnyg02vqkwhv1.jpg"
-            alt="MongoDB"
+          <Image
+            priority
+            src="/images/database.png"
+            height={150}
+            width={124}
+            alt="Database"
           />
-          <h2>MongoDB</h2>
+          <h2>Database</h2>
           <p>
             Extensive experience using NoSQL datastores such as MongoDB and
             DynamoDB. Experience with various relational database such as
-            Oracle, SQL Server, and PostgresSQL
+            Oracle, SQL Server, and PostgresSQL. Database schema and table
+            design experience.
           </p>
         </div>
         <div className="col-lg-4">
@@ -139,7 +148,7 @@ function Marketing() {
             <span className="text-muted">...It is in 3D!</span>
           </h2>
           <p className="lead">
-            I have been experimenting with WebGL technolgoy and{" "}
+            I have been experimenting with WebGL technology and I created{" "}
             {/* <a href="http://threejs.org/">Three.js</a> in particular. For the 3D
             house demo click the the Blue Square in the top left to move through
             the house in a scripted fashion through a simple 3D house model
@@ -223,35 +232,6 @@ function Marketing() {
             className="featurette-image img-responsive center-block"
             src="/images/css3.png"
             alt="CSS3"
-          /> */}
-        </div>
-      </div>
-      <hr className="featurette-divider" />
-      <div className="row featurette">
-        <div className="col-md-7">
-          <h2 className="featurette-heading">
-            jQuery<span className="text-muted">...MVC!</span>
-          </h2>
-          <p className="lead">
-            Almost every demo here uses jQuery. I have heavy experience with it.
-            Before there using Backbone.js and AngularJS my applications were
-            done with good old jQuery, Require.js, and Handlebars.js.
-          </p>
-          <div className="main-button-container">
-            <a
-              className="btn btn-default btn-lg"
-              href="https://github.com/KamiMoon/TodoMVC"
-              target="_blank"
-            >
-              <i className="fa fa-github fa-lg"></i> jQuery Todo MVC &raquo;
-            </a>
-          </div>
-        </div>
-        <div className="col-md-5">
-          {/* <img
-            className="featurette-image img-responsive center-block"
-            src="/images/jquery.png"
-            alt="jQuery"
           /> */}
         </div>
       </div>
