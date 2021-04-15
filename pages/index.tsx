@@ -112,21 +112,22 @@ function Marketing() {
           <h2>MongoDB</h2>
           <p>
             Extensive experience using NoSQL datastores such as MongoDB and
-            DynamoDB.
+            DynamoDB. Experience with various relational database such as
+            Oracle, SQL Server, and PostgresSQL
           </p>
         </div>
         <div className="col-lg-4">
           <Image
             priority
-            src="/images/angular.png"
-            height={140}
-            width={140}
-            alt="Angular"
+            src="/images/aws.png"
+            height={150}
+            width={200}
+            alt="AWS"
           />
           <h2>Cloud</h2>
           <p>
-            Extensive experience using Angular on the client for creating rich
-            single page applications.
+            Extensive using various cloud platforms for development and setting
+            up CI/CD.
           </p>
         </div>
       </div>
