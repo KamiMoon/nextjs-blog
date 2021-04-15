@@ -49,112 +49,85 @@ function Marketing() {
     <div className="container marketing">
       <div className="row">
         <div className="col-lg-4">
-          {/* <Image
+          <Image
             priority
             src="/images/HTML5.png"
             height={140}
             width={140}
             alt="HTML5"
-          /> */}
+          />
           <h2>HTML5</h2>
           <p>
             Extensive Experience using HTML5 APIs such as WebSockets for
             real-time applications. In depth knowledge of offline applications
             using local storage and IndexedDB.
           </p>
-          {/* <p>
-            <a
-              className="btn btn-default btn-lg"
-              href="https://www.linkedin.com/in/erickizaki"
-              role="button"
-            >
-              Linkedin &raquo;
-            </a>
-          </p> */}
         </div>
         <div className="col-lg-4">
-          <img
-            src="https://res.cloudinary.com/ddovrks1z/image/upload/w_140,h_140,c_fit/preserveus/fpfs3wntpppixtnyi45l.jpg"
-            alt="AngularJS"
-            width="140"
-            height="140"
+          <Image
+            priority
+            src="/images/angular.png"
+            height={140}
+            width={140}
+            alt="Angular"
           />
-          <h2>AngularJS</h2>
+          <h2>Angular</h2>
           <p>
-            Extensive experience using AngularJS on the client for creating rich
-            single page applications. Experience using modern toolsets such as
-            Grunt. Click Demo for a small demo app using AngularJS, Node.js, and
-            MongoDB.
+            Extensive experience using Angular on the client for creating rich
+            single page applications.
           </p>
-          {/* <p>
-            <a
-              className="btn btn-default btn-lg"
-              href="https://www.linkedin.com/in/erickizaki"
-              role="button"
-            >
-              Linkedin &raquo;
-            </a>
-          </p> */}
-          {/* <p>
-            <a className="btn btn-default btn-lg" href="/crud" role="button">
-              Demo &raquo;
-            </a>
-          </p> */}
+        </div>
+        <div className="col-lg-4">
+          <Image
+            priority
+            src="/images/react.png"
+            height={140}
+            width={198}
+            alt="React"
+          />
+          <h2>React</h2>
+          <p>
+            Experience using React on the client for creating web application
+            user interfaces. Experience with redux and React Native.
+          </p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-4">
+          <img
+            src="https://res.cloudinary.com/ddovrks1z/image/upload/w_200,h_200,c_fit/preserveus/yu6mk5unhlinzxcxwrl8.jpg"
+            alt="Node.js"
+          />
+          <h2>Node.js</h2>
+          <p>
+            Extensive experience Node.js for creating web server applications
+            using Express.js and serverless microservices on AWS Lambda.
+          </p>
         </div>
         <div className="col-lg-4">
           <img
             src="https://res.cloudinary.com/ddovrks1z/image/upload/w_200,h_200,c_fit/preserveus/ubl6hx3cnyg02vqkwhv1.jpg"
             alt="MongoDB"
           />
-          <img
-            src="https://res.cloudinary.com/ddovrks1z/image/upload/w_200,h_200,c_fit/preserveus/yu6mk5unhlinzxcxwrl8.jpg"
-            alt="Node.js"
+          <h2>MongoDB</h2>
+          <p>
+            Extensive experience using NoSQL datastores such as MongoDB and
+            DynamoDB.
+          </p>
+        </div>
+        <div className="col-lg-4">
+          <Image
+            priority
+            src="/images/angular.png"
+            height={140}
+            width={140}
+            alt="Angular"
           />
-          <h2>Full Stack Development</h2>
+          <h2>Cloud</h2>
           <p>
-            MEAN stack development with AngularJS, Node.js, Express.js, and
-            MongoDB. MongoDB Certified Developer.
+            Extensive experience using Angular on the client for creating rich
+            single page applications.
           </p>
-          <p>
-            <a
-              className="btn btn-default btn-lg"
-              href="https://github.com/KamiMoon/preserveus"
-              target="_blank"
-              role="button"
-            >
-              <i className="fa fa-github fa-lg"></i> Preserve US LLC &raquo;
-            </a>
-          </p>
-          <p>
-            <a
-              className="btn btn-default btn-lg"
-              href="https://github.com/KamiMoon/mean_vo_server"
-              target="_blank"
-              role="button"
-            >
-              <i className="fa fa-github fa-lg"></i> Volunteer Omaha &raquo;
-            </a>
-          </p>
-          <p>
-            <a
-              className="btn btn-default btn-lg"
-              href="https://github.com/KamiMoon/angular_full"
-              target="_blank"
-              role="button"
-            >
-              <i className="fa fa-github fa-lg"></i> erickizaki.com &raquo;
-            </a>
-          </p>
-          {/* <p>
-            <a
-              className="btn btn-default btn-lg"
-              href="https://university.mongodb.com/exams/display_certificate?csrfmiddlewaretoken=XibdC5vVH3A3H4rKrVpkmEge5dgNdkuw&license1=946&license2=959&license3=786"
-              target="_blank"
-              role="button"
-            >
-              Certification &raquo;
-            </a>
-          </p> */}
         </div>
       </div>
       <hr className="featurette-divider" />

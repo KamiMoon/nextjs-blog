@@ -24,7 +24,7 @@ export default function Post({
           <div className="col-md-12">
             <a href="/blog" className="btn btn-default btn-lg" role="button">
               {" "}
-              ← Back to Blog
+              Back to Blog
             </a>
             <br />
             <article>
