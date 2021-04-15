@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
+import Image from "next/image";
 
 export default function Portfolio() {
   return (
@@ -16,6 +17,80 @@ export default function Portfolio() {
 function PortfolioView() {
   return (
     <div>
+      <div className="content-section-a">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-sm-push-6  col-sm-6">
+              <h2 className="section-heading">Ansira</h2>
+              <h4>2018-Present</h4>
+              <p className="lead">Senior Developer</p>
+              <ul>
+                <li>
+                  Developed various cloud applications for a media gateway
+                  application, dashboard applications, and various websites.
+                </li>
+                <li>HTML5, CSS3, JavaScript, Typescript</li>
+                <li>Facebook API</li>
+                <li>Angular 9</li>
+                <li>React 16, Redux</li>
+                <li>Python 3.6+, Flask, Chalice</li>
+                <li>Node.js</li>
+                <li>
+                  AWS Lambda serverless microservices, S3, EC2, Redshift,
+                  DynamoDB, PostgresSQL
+                </li>
+              </ul>
+            </div>
+            <div className="col-lg-6 col-sm-pull-6  col-sm-6">
+              <Image
+                priority
+                src="/images/portfolio/ansira.jpeg"
+                className="img-responsive"
+                width={365}
+                height={191}
+                alt="Ansira"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-section-a">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-sm-push-6  col-sm-6">
+              <h2 className="section-heading">Bank of America</h2>
+              <h4>2017-2018</h4>
+              <p className="lead">
+                Assistant Vice President; Consultant Applications Developer
+              </p>
+              <ul>
+                <li>
+                  Developed applications used for fixed income trading in New
+                  York City
+                </li>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>React 16, Redux</li>
+                <li>Python</li>
+                <li>
+                  <a href="https://www.openfin.co/" target="_blank">
+                    OpenFin
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-lg-6 col-sm-pull-6  col-sm-6">
+              <Image
+                priority
+                src="/images/portfolio/boa.jpeg"
+                className="img-responsive"
+                width={365}
+                height={365}
+                alt="Bank of America"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="content-section-a">
         <div className="container">
           <div className="row">
@@ -114,9 +189,13 @@ function PortfolioView() {
           <div className="row">
             <div className="col-lg-6 col-sm-push-6  col-sm-6">
               <h2 className="section-heading">Union Pacific Railroad</h2>
-              <h4>2011-Current</h4>
+              <h4>2011-2017</h4>
               <p className="lead">Senior Application Developer</p>
               <ul>
+                <li>
+                  Developed various applications for Intermodal Terminal
+                  Operations
+                </li>
                 <li>HTML5, CSS3, JavaScript</li>
                 <li>jQuery, jQuery Mobile, jQuery UI, Foundation</li>
                 <li>Require.js, Handlebars.js, AngularJS</li>
