@@ -20,22 +20,24 @@ export default function PostList({
       <Head>
         <title>Blog Posts</title>
       </Head>
-      <div className="panel panel-primary">
-        <div className="panel-heading">Posts</div>
-        <div className="panel-body">
-          <div className="list-group">
-            {allPostsData.map(({ id, date, title }) => (
-              <div key={id}>
-                <Link href={`/blog/${id}`}>
-                  <a className="list-group-item">{title}</a>
-                </Link>
-                <small className={utilStyles.lightText}>
-                  <Date dateString={date} />
-                </small>
-                <br />
-                <br />
-              </div>
-            ))}
+      <div className="container">
+        <div className="panel panel-primary">
+          <div className="panel-heading">Posts</div>
+          <div className="panel-body">
+            <div className="list-group">
+              {allPostsData.map(({ id, date, title }) => (
+                <div key={id}>
+                  <Link href={`/blog/${id}`}>
+                    <a className="list-group-item">{title}</a>
+                  </Link>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                  <br />
+                  <br />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

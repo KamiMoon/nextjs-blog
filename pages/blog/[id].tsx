@@ -19,7 +19,7 @@ export default function Post({
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-md-12">
             <a href="/blog" className="btn btn-default btn-lg" role="button">
