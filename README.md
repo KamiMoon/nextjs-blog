@@ -14,3 +14,8 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 - styles: CSS
 - lib: utility functions
 - components: UI components
+
+## TODOs
+
+- Push footer to bottom fix layout
+- CRUD demo with Formick

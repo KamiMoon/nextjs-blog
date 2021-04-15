@@ -3,7 +3,7 @@ title: "New Blog a Work in Progress"
 date: "2021-04-14"
 ---
 
-I am currently rewriting my old <a href="www.erickiza.com">www.erickiza.com</a> site.
+I am currently rewriting my old <a href="www.erickizaki.com">www.erickizaki.com</a> site.
 
 Old site <a href="https://github.com/KamiMoon/angular_full" target="_blank">code</a>: MEAN stack using AngularJS 1.x. It is ancient stuff from 2015 and was hosted on Heroku.
 
