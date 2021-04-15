@@ -16,6 +16,8 @@ export default function Layout({
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="google" content="notranslate" />
+        <meta httpEquiv="Content-Language" content="en" />
         <meta
           content="width=device-width, initial-scale=1, maximum-scale=1"
           name="viewport"
