@@ -60,8 +60,8 @@ function PortfolioView() {
             <div className="col-lg-6 col-sm-push-6  col-sm-6">
               <h2 className="section-heading">Bank of America</h2>
               <h4>2017-2018</h4>
-              <p className="lead">
-                Assistant Vice President; Consultant Applications Developer
+              <p className="lead" style={{ textAlign: "left" }}>
+                Assistant Vice President&#59; Consultant Applications Developer
               </p>
               <ul>
                 <li>

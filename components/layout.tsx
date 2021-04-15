@@ -1,12 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
 import Navbar from "./navbar";
 import Footer from "./footer";
 
-const name = "Eric Kizaki";
 export const siteTitle = "Eric Kizaki";
 
 export default function Layout({
@@ -53,15 +48,6 @@ export default function Layout({
         <br />
         <main>{children}</main>
       </div>
-
-      {/* {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )} */}
-
       <Footer />
     </div>
   );
